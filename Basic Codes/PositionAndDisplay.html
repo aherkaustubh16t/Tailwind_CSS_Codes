@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position And Display</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="p-20">
+
+    <!-- Position -->
+    <h1>1> Position</h1>
+    <div class="static p-10 bg-teal-200">
+        <p>Static Parent</p>
+        <div class="bg-red-400 absolute top-0 right-0">Absolute Child of Static Parent</div>
+    </div><br><br>
+
+    <div class="relative p-10 bg-teal-200">
+        <p>Relative Parent</p>
+        <div class="bg-red-400 absolute right-0 bottom-0">Absolute Child of Relative Parent</div>
+    </div><br><br>
+
+    <div class="relative p-10 bg-teal-200">
+        <p>Relative Parent</p>
+        <div class="bg-red-400 absolute -right-6 -bottom-6">Absolute Child of Relative Parent with negative values</div>
+    </div><br><br><br>
+    <hr>
+    <hr>
+
+    <!-- Display -->
+    <h1>2> Display</h1>
+    <div class="bg-green-300 p-6">
+        <p class="inline bg-red-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam labore eos natus laboriosam facere, sunt
+            tempore quibusdam laudantium dolorem unde blanditiis. Aliquid commodi possimus voluptatibus sequi deleniti
+            ullam voluptatum pariatur consectetur! Tempore sed perferendis iusto nisi ipsum amet consequuntur tenetur,
+            aperiam sapiente incidunt eligendi quas laboriosam libero quam sit natus.</p>
+        <br><br>
+
+        <p class="block bg-red-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam labore eos natus laboriosam facere, sunt
+            tempore quibusdam laudantium dolorem unde blanditiis. Aliquid commodi possimus voluptatibus sequi deleniti
+            ullam voluptatum pariatur consectetur! Tempore sed perferendis iusto nisi ipsum amet consequuntur tenetur,
+            aperiam sapiente incidunt eligendi quas laboriosam libero quam sit natus.</p>
+        <br><br>
+        
+        <p class="hidden bg-red-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam labore eos natus laboriosam facere, sunt
+            tempore quibusdam laudantium dolorem unde blanditiis. Aliquid commodi possimus voluptatibus sequi deleniti
+            ullam voluptatum pariatur consectetur! Tempore sed perferendis iusto nisi ipsum amet consequuntur tenetur,
+            aperiam sapiente incidunt eligendi quas laboriosam libero quam sit natus.</p>
+    </div>
+
+</body>
+
+</html>

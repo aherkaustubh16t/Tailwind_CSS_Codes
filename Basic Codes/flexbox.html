@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="p-20">
+
+    <!-- Flex Box -->
+    <h1>1> Flex Box </h1>
+    <div class="border-2 p-4 flex">
+        <div class="m-2 p-2 bg-teal-300">Kaustubh</div>
+        <div class="m-2 p-2 bg-teal-300">Kaustubh</div>
+        <div class="m-2 p-2 bg-teal-300">Kaustubh</div>
+        <div class="m-2 p-2 bg-teal-300">Kaustubh</div>
+        <div class="m-2 p-2 bg-teal-300">Kaustubh</div>
+    </div><br><br>
+    <hr>
+
+    <!-- Flex Basis -->
+    <h1>2> Flex Basis</h1>
+    <div class="border-2 p-4 flex">
+        <div class="m-2 p-2 basis-1/4 bg-pink-200">Aher</div>
+        <div class="m-2 p-2 basis-1/4 bg-pink-200">Aher</div>
+        <div class="m-2 p-2 basis-1/2 bg-pink-200">Aher</div>
+    </div><br><br>
+    <hr>
+
+    <!-- Flex Direction -->
+    <h1>3> Flex Direction</h1>
+    <h2>Flex row</h2>
+    <div class="border-2 p-4 flex flex-row">
+        <div class="p-2 m-2 bg-slate-400">1 Flex Direction</div>
+        <div class="p-2 m-2 bg-slate-400">2 Flex Direction</div>
+        <div class="p-2 m-2 bg-slate-400">3 Flex Direction</div>
+    </div><br><br>
+    <h2>Flex row reverse</h2>
+    <div class="border-2 p-4 flex flex-row-reverse">
+        <div class="p-2 m-2 bg-slate-400">1 Flex Direction</div>
+        <div class="p-2 m-2 bg-slate-400">2 Flex Direction</div>
+        <div class="p-2 m-2 bg-slate-400">3 Flex Direction</div>
+    </div><br><br>
+    <h2>Flex column</h2>
+    <div class="border-2 p-4 flex flex-col">
+        <div class="p-2 m-2 bg-slate-400">1 Flex Direction</div>
+        <div class="p-2 m-2 bg-slate-400">2 Flex Direction</div>
+        <div class="p-2 m-2 bg-slate-400">3 Flex Direction</div>
+    </div><br><br>
+    <h2>Flex column reverse</h2>
+    <div class="border-2 p-4 flex flex-col-reverse">
+        <div class="p-2 m-2 bg-slate-400">1 Flex Direction</div>
+        <div class="p-2 m-2 bg-slate-400">2 Flex Direction</div>
+        <div class="p-2 m-2 bg-slate-400">3 Flex Direction</div>
+    </div><br>
+    <hr>
+    <hr>
+
+    <!-- Justify Content -->
+    <h1>4> Justify Content</h1>
+    <h2>justify-start</h2>
+    <div class="border-2 p-4 flex justify-start">
+        <div class="bg-orange-300 m-2 p-2">1 Box</div>
+        <div class="bg-orange-300 m-2 p-2">2 Box</div>
+        <div class="bg-orange-300 m-2 p-2">3 Box</div>
+    </div><br><br>
+    <h2>justify-end</h2>
+    <div class="border-2 p-4 flex justify-end">
+        <div class="bg-orange-300 m-2 p-2">1 Box</div>
+        <div class="bg-orange-300 m-2 p-2">2 Box</div>
+        <div class="bg-orange-300 m-2 p-2">3 Box</div>
+    </div><br><br>
+    <h2>justify-center</h2>
+    <div class="border-2 p-4 flex justify-center">
+        <div class="bg-orange-300 m-2 p-2">1 Box</div>
+        <div class="bg-orange-300 m-2 p-2">2 Box</div>
+        <div class="bg-orange-300 m-2 p-2">3 Box</div>
+    </div><br><br>
+    <h2>justify-between</h2>
+    <div class="border-2 p-4 flex justify-between">
+        <div class="bg-orange-300 m-2 p-2">1 Box</div>
+        <div class="bg-orange-300 m-2 p-2">2 Box</div>
+        <div class="bg-orange-300 m-2 p-2">3 Box</div>
+    </div><br><br>
+    <h2>justify-evenly</h2>
+    <div class="border-2 p-4 flex justify-evenly">
+        <div class="bg-orange-300 m-2 p-2">1 Box</div>
+        <div class="bg-orange-300 m-2 p-2">2 Box</div>
+        <div class="bg-orange-300 m-2 p-2">3 Box</div>
+    </div><br><br>
+    <hr>
+
+    <!-- Flex Grow and shrink -->
+    <h1>5> Flex Grow and shrink</h1>
+    <h2>Flex Grow</h2>
+    <div class="border-2 p-4 flex">
+        <div class="bg-orange-300 grow m-2 p-2">1 Box</div>
+        <div class="bg-orange-300 flex-none w-16 m-2 p-2">2 Box</div>
+        <div class="bg-orange-300 flex-none w-16 m-2 p-2">3 Box</div>
+    </div><br><br>
+    <div class="border-2 p-4 flex">
+        <div class="bg-orange-300 flex-none grow w-16 m-2 p-2">1 Box</div>
+        <div class="bg-orange-300 grow-0 m-2 p-2">2 Box</div>
+        <div class="bg-orange-300 flex-none grow w-16 m-2 p-2">3 Box</div>
+    </div><br><br>
+    <h2>Flex Shrink</h2>
+    <div class="border-2 p-4 flex">
+        <div class="bg-orange-300 flex-none w-16 m-2 p-2">1 Box</div>
+        <div class="bg-orange-300 shrink w-64 m-2 p-2">2 Box</div>
+        <div class="bg-orange-300 flex-none w-16 m-2 p-2">3 Box</div>
+    </div><br><br>
+</body>
+
+</html>

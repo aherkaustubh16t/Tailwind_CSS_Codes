@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="p-20">
+    <!-- Grid -->
+    <h1>Grid</h1>
+    <h2>Grid Columns</h2>
+    <div class="border-2 p-4 grid grid-cols-3">
+        <div class="bg-yellow-400 m-2 p-2">1 Box</div>
+        <div class="bg-yellow-400 m-2 p-2">2 Box</div>
+        <div class="bg-yellow-400 m-2 p-2">3 Box</div>
+        <div class="bg-yellow-400 m-2 p-2">4 Box</div>
+        <div class="bg-yellow-400 m-2 p-2">5 Box</div>
+    </div><br><br>
+    <h2>Grid Columns start and end</h2>
+    <div class="border-2 p-4 grid grid-cols-3">
+        <div class="bg-yellow-400 m-2 p-2">1 Box</div>
+        <div class="bg-yellow-400 m-2 p-2">2 Box</div>
+        <div class="bg-yellow-400 m-2 p-2">3 Box</div>
+        <div class="bg-yellow-400 col-span-2 m-2 p-2">4 Box</div>
+        <div class="bg-yellow-400 m-2 p-2">5 Box</div>
+    </div><br><br>
+    <h2>Grid Rows</h2>
+    <div class="border-2 p-4 grid grid-rows-3 grid-flow-col">
+        <div class="bg-yellow-400 m-2 p-2">1 Box</div>
+        <div class="bg-yellow-400 m-2 p-2">2 Box</div>
+        <div class="bg-yellow-400 m-2 p-2">3 Box</div>
+        <div class="bg-yellow-400 m-2 p-2">4 Box</div>
+        <div class="bg-yellow-400 m-2 p-2">5 Box</div>
+        <div class="bg-yellow-400 m-2 p-2">6 Box</div>
+        <div class="bg-yellow-400 m-2 p-2">7 Box</div>
+        <div class="bg-yellow-400 m-2 p-2">8 Box</div>
+    </div><br><br>
+    <h2>Grid Rows start and end</h2>
+    <div class="border-2 p-4 grid grid-rows-3 grid-flow-col">
+        <div class="bg-yellow-400 m-2 p-2">1 Box</div>
+        <div class="bg-yellow-400 m-2 p-2">2 Box</div>
+        <div class="bg-yellow-400 m-2 p-2">3 Box</div>
+        <div class="bg-yellow-400 col-span-2 m-2 p-2">4 Box</div>
+        <div class="bg-yellow-400 row-span-2 m-2 p-2">5 Box</div>
+        <div class="bg-yellow-400 m-2 p-2">6 Box</div>
+        <div class="bg-yellow-400 m-2 p-2">7 Box</div>
+        <div class="bg-yellow-400 m-2 p-2">8 Box</div>
+    </div><br><br>
+
+</body>
+
+</html>
